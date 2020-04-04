@@ -1,9 +1,9 @@
-package com.lukmotech.domain.repository
+package com.lukmotech.bankbuddy.domain.repository
 
-import com.lukmotech.domain.entities.TransactionEntity
-import com.lukmotech.domain.entities.UserInfoEntity
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Observable
+import com.lukmotech.bankbuddy.domain.entities.TransactionEntity
+import com.lukmotech.bankbuddy.domain.entities.UserInfoEntity
+import io.reactivex.Completable
+import io.reactivex.Observable
 
 interface BankingRepository {
     fun getUserInfo(identifier: String): Observable<UserInfoEntity>

@@ -1,6 +1,4 @@
-package com.lukmotech.domain.entities
-
-import java.sql.Timestamp
+package com.lukmotech.bankbuddy.domain.entities
 
 data class TransactionEntity(
     val transactionId: String,

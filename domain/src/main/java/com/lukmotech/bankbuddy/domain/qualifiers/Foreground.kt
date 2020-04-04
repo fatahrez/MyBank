@@ -1,4 +1,4 @@
-package com.lukmotech.domain.qualifiers
+package com.lukmotech.bankbuddy.domain.qualifiers
 
 import javax.inject.Qualifier
 

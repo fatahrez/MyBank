@@ -1,12 +1,12 @@
-package com.lukmotech.domain.usecases
+package com.lukmotech.bankbuddy.domain.usecases
 
-import com.lukmotech.domain.entities.TransactionEntity
-import com.lukmotech.domain.qualifiers.Background
-import com.lukmotech.domain.qualifiers.Foreground
-import com.lukmotech.domain.repository.BankingRepository
-import com.lukmotech.domain.usecases.base.CompletableUseCase
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Scheduler
+import com.lukmotech.bankbuddy.domain.entities.TransactionEntity
+import com.lukmotech.bankbuddy.domain.qualifiers.Background
+import com.lukmotech.bankbuddy.domain.qualifiers.Foreground
+import com.lukmotech.bankbuddy.domain.repository.BankingRepository
+import com.lukmotech.bankbuddy.domain.usecases.base.CompletableUseCase
+import io.reactivex.Completable
+import io.reactivex.Scheduler
 import javax.inject.Inject
 
 class TransactionStatusUpdaterTask @Inject constructor(

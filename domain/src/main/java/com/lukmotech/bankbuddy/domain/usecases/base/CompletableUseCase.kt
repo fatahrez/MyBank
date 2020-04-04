@@ -1,7 +1,7 @@
-package com.lukmotech.domain.usecases.base
+package com.lukmotech.bankbuddy.domain.usecases.base
 
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Scheduler
+import io.reactivex.Completable
+import io.reactivex.Scheduler
 
 abstract class CompletableUseCase<in Input> constructor(
     private val backgroundScheduler: Scheduler,

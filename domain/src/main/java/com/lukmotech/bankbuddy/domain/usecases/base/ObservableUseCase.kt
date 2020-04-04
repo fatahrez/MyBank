@@ -1,7 +1,7 @@
-package com.lukmotech.domain.usecases.base
+package com.lukmotech.bankbuddy.domain.usecases.base
 
-import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.core.Scheduler
+import io.reactivex.Observable
+import io.reactivex.Scheduler
 
 abstract class ObservableUseCase<T, in Input> constructor(
     private val backgroundScheduler: Scheduler,

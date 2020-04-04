@@ -1,4 +1,4 @@
-package com.lukmotech.domain.entities
+package com.lukmotech.bankbuddy.domain.entities
 
 data class UserInfoEntity(
     val accountNumber: String,
