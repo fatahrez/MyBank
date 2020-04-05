@@ -1,4 +1,4 @@
-package com.lukmotech.bankbuddy.presentation
+package com.lukmotech.bankbuddy.data
 
 import org.junit.Test
 
