@@ -1,7 +1,5 @@
 package com.lukmotech.bankbuddy.data.model
 
-import android.location.Address
-
 data class UserInfoData(
     val accountNumber: String,
     val displayName: String,
