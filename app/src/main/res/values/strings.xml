@@ -25,5 +25,11 @@
     <string name="msg_account_type_info">Your account now supports additional overdraft limit.\n\nLogon to our website to know more.
     </string>
     <string name="msg_operations_closed">All banking operations will remain shut on \n %s from 01:00 AM to 06:00 AM for maintenance. </string>
-
+    <string name="title_debit">debit</string>
+    <string name="title_credit">Credit</string>
+    <string name="title_flagged">Flagged</string>
+    <string name="lbl_hvt">HVT</string>
+    <string name="cd_transaction_flagged">Transaction Flagged Status</string>
+    <string name="txt_amount_type_transaction">Amount: $%s (%s)</string>
+    <string name="reset_filter">Reset Filter</string>
 </resources>

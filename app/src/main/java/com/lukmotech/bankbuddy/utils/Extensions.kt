@@ -1,5 +1,6 @@
 package com.lukmotech.bankbuddy.utils
 
+import android.widget.CompoundButton
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -16,3 +17,14 @@ fun Calendar.addDays(days: Int): Calendar {
 }
 
 fun Double.toCurrency():String = currencyFormat.format(this)
+
+fun Long.toDisplayDate(): String {
+    val date = Date(this * 1000)
+    return dateFormat.format(date)
+}
+
+fun CompoundButton.setCustomChecked(value: Boolean, listener: CompoundButton.OnCheckedChangeListener) {
+    setOnCheckedChangeListener(null)
+    isChecked = value
+    setOnCheckedChangeListener(listener)
+}
