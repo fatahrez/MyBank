@@ -3,13 +3,15 @@
     package="com.lukmotech.bankbuddy">
 
     <application
+        android:name=".application.BankBuddyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.transactions.TransactionListActivity"></activity>
+        <activity android:name=".ui.transactions.TransactionListActivity"
+            android:parentActivityName=".ui.home.MainActivity"/>
         <activity android:name=".ui.home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
