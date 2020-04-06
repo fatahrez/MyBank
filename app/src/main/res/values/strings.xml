@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">BankBuddy</string>
+    <string name="cd_home_user_image">User Image</string>
+    <string name="cd_account_type_icon">Account Type</string>
+    <string name="tv_upgrade_account">Upgrade Account</string>
+    <string name="title_important_info">Important Info</string>
+    <string name="title_savings">Savings</string>
+    <string name="title_upgrade_to_premium">Upgrade Account</string>
+    <string name="msg_something_went_wrong">Something went wrong. Please try again later.</string>
+    <string name="display_account_num">Account: %s</string>
+    <string name="display_account_balance">Balance: $%s</string>
+    <string name="title_premium_perks">Premium perks</string>
+    <string name="msg_premium_account_benefits" formatted="true">
+        With a premium account you get:\n\n
+        1. Unlimited transaction in all formats.\n\n
+        2. Reduced Rate of Interest in all types of loans.\n\n
+        3. Extra overdraft limit and more perks.\n
+    </string>
+    <string name="btn_txt_dismiss">Dismiss</string>
+    <string name="msg_important_information" formatted="true">
+        1. Your account has reached monthly transaction limit. $5.00 will be charged for every new transaction this month \n\n
+        2. You are eligible for a free add-on credit card. Contact support for more information.\n\n
+        3. Our policies have been updated. Please visit our website to know more.\n
+    </string>
+    <string name="msg_account_type_info">Your account now supports additional overdraft limit.\n\nLogon to our website to know more.
+    </string>
+    <string name="msg_operations_closed">All banking operations will remain shut on \n %s from 01:00 AM to 06:00 AM for maintenance. </string>
+
 </resources>
