@@ -21,7 +21,7 @@ class FilterTransactionsTask @Inject constructor(
         if (input == null) {
             throw IllegalArgumentException("FilterTransactionsTask parameter can't be null")
         }
-        return bankingRepository.getFilteredTranscations(
+        return bankingRepository.getFilteredTransactions(
             userIdentifier = input.userIdentifier,
             credit = input.credit,
             debit = input.debit,

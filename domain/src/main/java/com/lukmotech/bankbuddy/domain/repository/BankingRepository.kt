@@ -10,7 +10,7 @@ interface BankingRepository {
 
     fun getUserTransactions(userIdentifier: String, limit: Int): Observable<List<TransactionEntity>>
 
-    fun getFilteredTranscations(
+    fun getFilteredTransactions(
         userIdentifier: String,
         credit: Boolean,
         debit: Boolean,

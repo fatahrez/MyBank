@@ -45,7 +45,7 @@ class BankingRepositoryImpl @Inject constructor(
             .concatWith(localTransactions)
     }
 
-    override fun getFilteredTranscations(
+    override fun getFilteredTransactions(
         userIdentifier: String,
         credit: Boolean,
         debit: Boolean,

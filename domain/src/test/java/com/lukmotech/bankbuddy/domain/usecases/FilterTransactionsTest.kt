@@ -2,7 +2,6 @@ package com.lukmotech.bankbuddy.domain.usecases
 
 import com.lukmotech.bankbuddy.domain.repository.BankingRepository
 import com.lukmotech.bankbuddy.domain.utils.TestDataGenerator
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TestGenerator
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import org.junit.Before
@@ -40,7 +39,7 @@ class FilterTransactionsTest {
         val isDebit = true
 
         Mockito.`when`(
-            bankingRepository.getFilteredTranscations(
+            bankingRepository.getFilteredTransactions(
                 accountNumber,
                 isHvt,
                 isCredit,
@@ -72,7 +71,7 @@ class FilterTransactionsTest {
         val isDebit = true
 
         Mockito.`when`(
-            bankingRepository.getFilteredTranscations(
+            bankingRepository.getFilteredTransactions(
                 accountNumber,
                 isHvt,
                 isCredit,

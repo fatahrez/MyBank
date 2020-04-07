@@ -61,7 +61,7 @@ class TransactionVMTest {
     @Test
     fun test_getUserTransactions_success() {
         Mockito.`when`(
-            repository.getFilteredTranscations(
+            repository.getFilteredTransactions(
                 anyString(),
                 anyBoolean(),
                 anyBoolean(),
@@ -83,7 +83,7 @@ class TransactionVMTest {
     fun test_getUserTransactions_error() {
         val errorMsg = "fetch transaction error"
         Mockito.`when`(
-            repository.getFilteredTranscations(
+            repository.getFilteredTransactions(
                 anyString(),
                 anyBoolean(),
                 anyBoolean(),
@@ -104,7 +104,7 @@ class TransactionVMTest {
     @Test
     fun test_filterTransactions_success() {
         Mockito.`when`(
-            repository.getFilteredTranscations(
+            repository.getFilteredTransactions(
                 anyString(),
                 anyBoolean(),
                 anyBoolean(),
@@ -132,7 +132,7 @@ class TransactionVMTest {
     fun test_filterTransactions_error() {
         val errorMsg = "fetch transaction error"
         Mockito.`when`(
-            repository.getFilteredTranscations(
+            repository.getFilteredTransactions(
                 anyString(),
                 anyBoolean(),
                 anyBoolean(),

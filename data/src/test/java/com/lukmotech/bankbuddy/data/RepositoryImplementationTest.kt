@@ -156,7 +156,7 @@ class RepositoryImplementationTest {
             )
         ).thenReturn(Observable.just(transactionsData))
 
-        val testSubscriber = bankingRepository.getFilteredTranscations(
+        val testSubscriber = bankingRepository.getFilteredTransactions(
             userIdentifier, credit, debit, flagged
         ).test()
 

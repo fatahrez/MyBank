@@ -1,5 +1,6 @@
 package com.lukmotech.bankbuddy.application
 
+import com.lukmotech.bankbuddy.di.DaggerBankBudyAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
 
